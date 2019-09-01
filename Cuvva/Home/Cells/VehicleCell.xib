@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="VehicleCell" rowHeight="74" id="FGP-bl-J1w" customClass="VehicleCell" customModule="Cuvva" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="74"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="FGP-bl-J1w" id="eij-DX-KX6">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="73.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ggE-R6-4lr" customClass="ImageTitleSubtitleView" customModule="Cuvva" customModuleProvider="target">
+                        <rect key="frame" x="20" y="10" width="374" height="53.5"/>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ggE-R6-4lr" firstAttribute="leading" secondItem="eij-DX-KX6" secondAttribute="leading" constant="20" id="1cB-Lx-ruV"/>
+                    <constraint firstItem="ggE-R6-4lr" firstAttribute="top" secondItem="eij-DX-KX6" secondAttribute="top" constant="10" id="KDv-Lh-Yfr"/>
+                    <constraint firstAttribute="trailing" secondItem="ggE-R6-4lr" secondAttribute="trailing" constant="20" id="aHO-wm-jNV"/>
+                    <constraint firstItem="ggE-R6-4lr" firstAttribute="centerY" secondItem="eij-DX-KX6" secondAttribute="centerY" id="gn3-kp-he2"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="imageTitleSubtitleView" destination="ggE-R6-4lr" id="Yy6-ZP-fxB"/>
+            </connections>
+            <point key="canvasLocation" x="134.78260869565219" y="-99.107142857142847"/>
+        </tableViewCell>
+    </objects>
+</document>
