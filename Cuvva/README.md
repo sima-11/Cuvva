@@ -1,4 +1,5 @@
 # Description
+* The codebase has been split into multiple targets. To compile, please follow this order: 1. DateConverter 2. Networking 3. API 4. Cuvva, the main app
 * This test took me roughly 2 days + 3 nights
 * I had to make a few compromises considering time, which are listed under Improvements section
 * Some of places have hardcoded values, but all should come with comments to explain why hardcoded values are used.
