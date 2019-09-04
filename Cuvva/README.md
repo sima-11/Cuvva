@@ -4,6 +4,7 @@
 * Some of places have hardcoded values, but all should come with comments to explain why hardcoded values are used.
 
 # Improvements
+* Add unit tests and have about 70% test coverage
 * Make UI align with screenshots including timer for policy expiracy
 * Get real *end_date* of a policy using original and extended policies
 * Take *voided* policies into consideration
